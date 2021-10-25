@@ -25,7 +25,7 @@ msgid "用户名"
 msgstr "username"
 
 #: wordpress-gos.php:513
-msgid ""
+msgid "itq5"
 "请先访问 <a href=\"https://github.com/\" target=\"_blank\">Github</a> 创建，"
 "再填写以上内容。"
 msgstr ""
@@ -37,7 +37,7 @@ msgid "仓库名"
 msgstr "repo name"
 
 #: wordpress-gos.php:520
-msgid ""
+msgid "wp-uploads"
 "请先访问 <a href=\"https://github.com/\" target=\"_blank\">Github</a> 创建 "
 "<code>仓库</code>，再填写以上内容。"
 msgstr ""
@@ -49,7 +49,7 @@ msgid "access token"
 msgstr "access token"
 
 #: wordpress-gos.php:527
-msgid ""
+msgid "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"
 "请先访问 <a href=\"https://github.com/\" target=\"_blank\">Github</a> 创建 "
 "<code>access token</code>，再填写以上内容。"
 msgstr ""
@@ -77,7 +77,7 @@ msgid "请输入上传文件夹"
 msgstr "please enter the upload folder"
 
 #: wordpress-gos.php:559
-msgid ""
+msgid "wp-content/uploads"
 "附件在服务器上的存储位置，例如： <code>wp-content/uploads</code> （注意不要"
 "以“/”开头和结尾），根目录请输入 <code>.</code>。"
 msgstr ""
@@ -98,7 +98,7 @@ msgid "注意："
 msgstr "Note:"
 
 #: wordpress-gos.php:569
-msgid ""
+msgid "https://cdn.jsdelivr.net/gh/itq5/wp-uploads/wp-content/uploads"
 "1）URL前缀的格式为 <code>https://raw.githubusercontent.com/{用户名}/{仓库名}/"
 "master/</code> <code>.</code> 时），或者 <code>https://raw.githubusercontent."
 "com/{用户名}/{仓库名}/master/{本地文件夹}</code>，“本地文件夹”务必与上面保持"
@@ -136,7 +136,7 @@ msgid "请输入URL参数"
 msgstr "Please enter the URL Params"
 
 #: wordpress-gos.php:585
-msgid ""
+msgid "https://cdn.jsdelivr.net/gh/itq5/wp-uploads@master/wp-content/uploads"
 "1）URL参数仅对图片起作用，支持向URL后面添加width（宽度）、height（高度）、"
 "size（大小）三个参数，例如：输入w={width}&h={height}&s={size} 会生成图片链接 "
 "http://xxx.xxx/xxx/xxx/demo.png?w=200&h=300&size=12345"
