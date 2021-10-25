@@ -1,13 +1,13 @@
 {
-    "name": "xyu/heroku-wp",
+    "name": "itq5/wp-heroku",
     "description": "A template for installing and running WordPress on Heroku",
-    "homepage": "https://github.com/xyu/heroku-wp",
+    "homepage": "https://github.com/itq5/wp-heroku",
     "license": "MIT",
     "authors": [
         {
-            "name": "Xiao Yu",
-            "email": "me@xyu.io",
-            "homepage": "http://xyu.io",
+            "name": "Kangping Wei",
+            "email": "root@itq5.com",
+            "homepage": "http://itq5.com",
             "role": "Developer"
         }
     ],
@@ -30,7 +30,7 @@
         "wpackagist-plugin/amp": "*",
         "wpackagist-plugin/insert-headers-and-footers": "*",
         "wpackagist-plugin/wp-crontrol": "*",
-
+        "wpackagist-plugin/wp-githuber-md":"1.16.0",
         "wpackagist-plugin/easy-wp-smtp": "*",
 
         "predis/predis": "~1",
@@ -45,10 +45,10 @@
             "type": "package",
             "package": {
                 "name": "wordpress/wordpress",
-                "version": "5.4.2",
+                "version": "5.8.1",
                 "dist": {
                     "type": "zip",
-                    "url": "https://cn.wordpress.org/wordpress-5.4.2-zh_CN.zip"
+                    "url": "https://cn.wordpress.org/wordpress-5.8.1-zh_CN.zip"
                 }
             }
         },

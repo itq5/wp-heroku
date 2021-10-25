@@ -21,17 +21,17 @@ rm -rf public.built/wp-content/themes/twentyseventeen
 rm -rf public.built/wp-content/themes/twentynineteen
 
 # Remove files to slim down slug if we're on Heroku
-if [ ! -e .sluglocal ]
-then
-	rm -rf vendor/wordpress
-	rm -rf public
-fi
+#if [ ! -e .sluglocal ]
+#then
+#	rm -rf vendor/wordpress
+#	rm -rf public
+#fi
 
 # Write some info about our slug
 NOW=$( date )
-cat <<EOT > public.built/.heroku-wp
-Powered by HerokuWP
-https://github.com/xyu/heroku-wp
+cat <<EOT > public.built/.wp-heroku
+Powered by WPHeroku
+https://github.com/itq5/wp-heroku
 =============================================
 
 Slug Compiled : $NOW

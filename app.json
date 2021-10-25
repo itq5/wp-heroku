@@ -2,8 +2,8 @@
   "name": "WordPress on Heroku",
   "description": "A template for installing and running WordPress on Heroku",
   "keywords": [ "PHP", "WordPress", "Blog", "CMS" ],
-  "website": "https://github.com/xyu/heroku-wp",
-  "repository": "https://github.com/xyu/heroku-wp",
+  "website": "https://github.com/itq5/wp-heroku",
+  "repository": "https://github.com/itq5/wp-heroku",
   "logo": "https://s.w.org/style/images/about/WordPress-logotype-wmark.png",
   "success_url": "/wp-admin/install.php",
   "env": {
@@ -95,5 +95,5 @@
       "plan": "newrelic:wayne"
     }
   ],
-  "stack": "heroku-18"
+  "stack": "heroku-20"
 }
