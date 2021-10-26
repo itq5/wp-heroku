@@ -283,9 +283,17 @@ git push -u origin master
 git status
 
 ----
+## 登录heroku
+heroku login
+## 更新依赖
 composer update --ignore-platform-reqs
+## 创建git
 git init
+## 连接远端库
 heroku git:remote -a quwublog
+## 预上传文件
 git add .
+## 上传文件标签
 git commit -am "update one"
+## 提交到远端库
 git push heroku master
