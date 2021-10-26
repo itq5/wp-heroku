@@ -19,6 +19,8 @@ rm -rf public.built/wp-content/plugins/hello-dol*
 
 rm -rf public.built/wp-content/themes/twentyseventeen
 rm -rf public.built/wp-content/themes/twentynineteen
+rm -rf public.built/wp-content/themes/twentytwentyone
+rm -rf public.built/wp-content/themes/twentytwenty
 
 # Remove files to slim down slug if we're on Heroku
 #if [ ! -e .sluglocal ]
