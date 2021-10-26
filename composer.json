@@ -32,7 +32,6 @@
         "wpackagist-plugin/wp-crontrol": "*",
         "wpackagist-plugin/wp-githuber-md":"1.16.0",
         "wpackagist-plugin/easy-wp-smtp": "*",
-	"wpackagist-plugin/qiniu-tuchuan":"0.5",
 
         "predis/predis": "~1",
         "wp-cli/wp-cli": "^2"
