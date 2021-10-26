@@ -1,0 +1,41 @@
+.normal_shortcode,.panel_shortcode,.cloud_shortcode{
+    padding: 10px;
+    width: 185px;
+    height: 185px;
+    background: rgb(246 247 247);
+    border: 1px solid;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    display: none;
+}
+
+.normal_shortcode input,.panel_shortcode input,.cloud_shortcode input {
+    width: 188px;
+}
+
+.normal_shortcode{
+    left: 32%;
+}
+
+.panel_shortcode{
+    left: 58%;
+}
+
+.cloud_shortcode{
+    left: 84%;
+}
+
+.submit_button{
+    margin-top: 5% !important;
+    margin-left: 58% !important;
+}
+
+.short_code_select {
+    width: 104px;
+}
+
+.close_button{
+    float: right;
+    transform: translate(8px);
+}

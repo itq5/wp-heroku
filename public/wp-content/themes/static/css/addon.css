@@ -1,0 +1,8 @@
+.hljs{
+    padding-left: 20px !important;
+}
+
+.fa-info-circle,.fa-exclamation-triangle,.fa-arrow-circle-right{
+    font-family: "FontAwesome"!important;
+    font-size: 18px!important;
+}
